@@ -22,4 +22,11 @@ public class ReportCard {
     public String getSubject(){return mSubject;}
     public String getScore(){return mScore;}
 
+    @Override
+    public String toString() {
+        return "ReportCard{" +
+                "mSubject='" + mSubject + '\'' +
+                ", mScore='" + mScore + '\'' +
+                '}';
+    }
 }
