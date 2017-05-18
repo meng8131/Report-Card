@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Report Card</string>
+    <string name="info_1">Name</string>
+    <string name="name">Lyman</string>
+    <string name="info_2">Term</string>
+    <string name="term">2017 Q1</string>
+</resources>

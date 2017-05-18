@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.reportcard.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/title"
+        android:text="Report Card"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/basic_info_1"
+            android:text="@string/info_1"/>
+        <TextView
+            style="@style/basic_info_2"
+            android:text="@string/name"/>
+        <TextView
+            style="@style/basic_info_1"
+            android:text="@string/info_2"/>
+        <TextView
+            style="@style/basic_info_2"
+            android:text="@string/term"/>
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/listview_score">
+    </ListView>
+</LinearLayout>
